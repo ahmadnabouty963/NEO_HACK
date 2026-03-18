@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root,
+[data-theme="matrix"] {
+  color-scheme: dark;
+
+  --p: 142 100% 50% !important;
+  --pc: 142 100% 5% !important;
+
+  --b1: 142 10% 2% !important;
+  --b2: 142 10% 4% !important;
+  --b3: 142 10% 6% !important;
+
+  --bc: 142 100% 50% !important;
+
+  --rounded-box: 0rem !important;
+  --rounded-btn: 0rem !important;
+  --rounded-badge: 0rem !important;
+}
+
+html,
+body {
+  background-color: #030804 !important;
+  color: #00ff41 !important;
+  font-family: "Courier New", Courier, monospace !important;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card,
+.bg-base-100,
+.bg-base-200 {
+  background-color: #051006 !important;
+  border: 1px solid #00ff41 !important;
+}
+
+* {
+  text-shadow: 0 0 2px rgba(0, 255, 65, 0.3);
+}
